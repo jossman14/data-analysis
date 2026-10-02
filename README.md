@@ -23,3 +23,15 @@ Kumpulan notebook latihan analisis data dan machine learning dengan Python (EDA,
 Tidak ada `requirements.txt`. Pustaka utama: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`; untuk notebook sentimen juga `tweepy`, `nltk`, `Sastrawi`, `googletrans`, `gensim`, `textblob`, `vaderSentiment`, `wordcloud`, `pyLDAvis`, `plotly`, `pyspark`.
 
 Buka notebook dengan Jupyter dan jalankan sel secara berurutan dari folder repo ini. Pengambilan tweet memerlukan kredensial Twitter API milik sendiri.
+
+## Dataset & Artefak
+
+| Dataset | File | Sumber | Di repo? |
+|---|---|---|---|
+| Supermarket sales | `supermarket_sales.csv` (128 KB) | sumber tidak tercatat (notebook Kaggle-style membaca `../input/supermarket_sales - Sheet1.csv`) | Ya |
+| Telco Customer Churn | `WA_Fn-UseC_-Telco-Customer-Churn.csv` (0,97 MB) | sumber tidak tercatat (path di notebook: `../input/telco-customer-dataset/`) | Ya |
+| Data demografi Bertelsmann Arvato (proyek Udacity *Identify Customer Segments*) | `Udacity_AZDIAS_Subset.csv`, `Udacity_CUSTOMERS_Subset.csv`, `AZDIAS_Feature_Summary.csv` | Materi proyek Udacity; URL tidak tercatat | Tidak |
+| Tweet politik/agama | `politik_agama1.csv` | Diambil sendiri lewat Twitter API (Tweepy) | Tidak |
+| Tweet | `test.csv`, `pemerintah_13_kkNovember.csv` | Diambil sendiri lewat Twitter API (Tweepy) | Ya (kecil) |
+
+Tidak ada model atau artefak eksperimen yang disertakan; semua hasil (cluster, skor sentimen, grafik) dibuat ulang dengan menjalankan notebook. Data yang tidak disertakan harus disiapkan sendiri dan diletakkan di folder repo ini.
