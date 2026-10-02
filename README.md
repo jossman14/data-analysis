@@ -32,6 +32,7 @@ Buka notebook dengan Jupyter dan jalankan sel secara berurutan dari folder repo 
 | Telco Customer Churn | `WA_Fn-UseC_-Telco-Customer-Churn.csv` (0,97 MB) | sumber tidak tercatat (path di notebook: `../input/telco-customer-dataset/`) | Ya |
 | Data demografi Bertelsmann Arvato (proyek Udacity *Identify Customer Segments*) | `Udacity_AZDIAS_Subset.csv`, `Udacity_CUSTOMERS_Subset.csv`, `AZDIAS_Feature_Summary.csv` | Materi proyek Udacity; URL tidak tercatat | Tidak |
 | Tweet politik/agama | `politik_agama1.csv` | Diambil sendiri lewat Twitter API (Tweepy) | Tidak |
-| Tweet | `test.csv`, `pemerintah_13_kkNovember.csv` | Diambil sendiri lewat Twitter API (Tweepy) | Ya (kecil) |
+| Tweet (hasil streaming) | `test.csv` | Diambil sendiri lewat Twitter API (Tweepy) | Ya (kecil) |
+| Tweet November 2019 | `pemerintah_13_kkNovember.csv` | sumber tidak tercatat (tidak dipakai notebook mana pun) | Ya (kecil) |
 
 Tidak ada model atau artefak eksperimen yang disertakan; semua hasil (cluster, skor sentimen, grafik) dibuat ulang dengan menjalankan notebook. Data yang tidak disertakan harus disiapkan sendiri dan diletakkan di folder repo ini.
